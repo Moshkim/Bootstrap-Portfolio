@@ -14,9 +14,13 @@ body {
 }
 
 .container {
-	margin: 0 15px;
-	padding: 30px 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
 
+#top-container{
+	margin: 0;
 }
 
 h2 {
@@ -39,7 +43,7 @@ h2 {
 }
 .small-container {
 	height: 50%;
-	margin: 0 20px 0 30px;
+	margin: 0;
 	padding-bottom: 30px;
 }
 .social {
@@ -68,28 +72,29 @@ h2 {
 }
 
 #navUnderline {
+	display: flex;
+	align-items: center;
 	background-color: #fff;
 	border-bottom: 2px solid rgb(26, 70, 102);
 
 }
 #logo {
-	margin: 0 20px;
-	float: left;
-	width: 250px;
-	height: 90px;
+	margin:0;
+	padding: 25px 0;
 	font-family: Georgia, Times, "Times New Roman", serif;
 	font-size: 30px;
 	font-weight: 700;
-	line-height: 90px;
 	color: #fff;
 	text-align: center;
 	text-decoration: none;
 	background: #4aaaa5;
 }
 
+#nav-item-box {
+	height: 40px;
+}
+
 #navItems {
-	height: 90px;
-	padding: 23px;
 }
 
 .separator {
@@ -104,7 +109,6 @@ h2 {
 
 footer {
 	padding: 30px 0;
-	clear: both;
 	font-size: 12px;
 	color: #fff;
 	color: #ccc;
@@ -113,11 +117,61 @@ footer {
 	border-top: 8px solid #4aaaa5;
 }
 
+#images {
+	width: 280px;
+	height: 250px;
+}
+
+#image-frame {
+}
+
+.col-centered {
+	float: none;
+	margin: 0 auto;
+}
 
 
 
-@media only screen and (max-width: 992px) {
 
+#contact-form ul {
+  margin-bottom: 20px;
+}
 
+#contact-form li {
+  margin-bottom: 10px;
+}
 
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
+
+#submit-button{
+	float: none;
+	margin: 0 auto;
 }
